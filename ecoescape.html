@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min2.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+        <link href="assets/img/LOGO.png" rel="icon">
+
+        <title>ECOESCAPE</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">ECOESCAPE</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#discover" class="nav__link">Discover</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#place" class="nav__link">Places</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__dark">
+                        <!-- Theme change button -->
+                        <span class="change-theme-name">Dark mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <div class="media-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100095130217491&mibextid=ZbWKwL"><i class="uil uil-facebook-f"></i></a>
+                    <a href="https://instagram.com/ecos.cape?igshid=ZDc4ODBmNjlmNQ=="><i class="uil uil-instagram"></i></a>
+                </div>
+
+                <div   class="swiper bg-slider">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="assets/img/bg1.jpg" alt="">
+                        <div class="text-content">
+                            <h2 class="title">Discover Maragondon</h2>
+                            <p> Maragondon offers for tourists interested in history, nature, and adventure. Maragondon is a Municipality in
+                                Cavite, Philippines, with a rich historical heritage. Maragondon is located on the eastern coast of Cavite.</p>
+                                <button class="read-btn">Read More<i class="uil uil-arrow-right"></i></button>
+                        </div>
+                      </div>
+                      <div class="swiper-slide dark-layer">
+                        <img src="assets/img/bg2.jpg" alt="">
+                        <div class="text-content">
+                            <h2 class="title">Kaybiang Tunnel</h2>
+                            <p> The Kaybiang Tunnel is the longest underground highway tunnel in the Philippines. It spans approximately 300 meters and is located in the province of Cavite, connecting the towns of Ternate and Nasugbu. The tunnel was constructed to improve transportation and accessibility in the region, particularly for travelers going to and from popular tourist destinations in Batangas. It offers breathtaking views of the coastline and the West Philippine Sea, making it a favorite stop for visitors, especially motorcyclists, cyclists, and road trippers.</p>
+                                <button class="read-btn">Read More<i class="uil uil-arrow-right"></i></button>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="assets/img/bg3.jpg" alt="">
+                        <div class="text-content">
+                            <h2 class="title">Maragondon Sanctuary</h2>
+                            <p>Maragondon Sanctuary is actually located at Ternate-Nasugbu Highway – adjacent to the shore of Sta. Mercedes and near the famed Kaybiang Tunnel. It is situated just less than a kilometer away from Patungan Beach, a weekend beach destination to Caviteños and other southies.</p>
+                                <button class="read-btn">Read More<i class="uil uil-arrow-right"></i></button>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                   
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">More information <br> about MARAGONDON</h2>
+                        <p class="about__description">Discover the most exquisite and enchanting 
+                            destinations at unparalleled prices, accompanied by exclusive discounts. Allow us to assist you in selecting the perfect place, while we provide comprehensive guidance throughout the entire journey. Don't hesitate any longer seize the opportunity and secure your desired spot now.
+                        </p>
+                        <a href="asdfghjkl.html" class="button">View More Photos</a>
+                    </div>
+
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about1.jpg" alt="" class="about__img-one">
+                        </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about2.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!--==================== DISCOVER ====================-->
+            <section class="discover section" id="discover">
+                <h2 class="section__title">Discover the most <br> attractive places</h2>
+                
+                <div class="discover__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== DISCOVER 1 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover1.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Kaybiang Tunnel</h2>
+                                <span class="discover__description">Ternate Hwy, Maragondon</span>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 2 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover2.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Maragondon Sanctuary</h2>
+                                <span class="discover__description">  Ternate Hwy, Nasugbu</span>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 3 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover3.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">El Lins</h2>
+                                <span class="discover__description"> Mabato, Maragondon</span>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 4 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover4.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Bonifacio Shrine </h2>
+                                <span class="discover__description"> Pinagsanhan B,Maragondon</span>
+                            </div>
+                        </div>
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover5.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Hanging Bridge </h2>
+                                <span class="discover__description">  Caingin,Maragondon</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== VIDEO ====================-->
+            <section class="video section">
+                <h2 class="section__title">Video Tour</h2>
+
+                <div class="video__container container">
+                    <p class="video__description">Find out more with our video of the most beautiful and 
+                        pleasant places for you and your family.
+                    </p>
+
+                    <div class="video__content">
+                        <video id="video-file">
+                            <source src="assets/video/Teaser.mp4" type="video/mp4">
+                        </video> 
+
+                        <button class="button button--flex video__button" id="video-button">
+                            <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PLACES ====================-->
+            <section class="place section" id="place">
+                <h2 class="section__title">Choose Your Place</h2>
+
+                <div class="place__container container grid">
+                    <!--==================== PLACES CARD 1 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/31312.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                 
+                                <span class="place__rating-number"></span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">River Front</h3>
+                                <span class="place__subtitle">Maragondon</span>
+                                <span class="place__price">Php 150</span>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+
+                    <!--==================== PLACES CARD 2 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/pop6.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                            
+                                <span class="place__rating-number"></span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Gancayco Resort</h3>
+                                <span class="place__subtitle">Pantihan,Maragondon</span>
+                                <span class="place__price">Php 100</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--==================== PLACES CARD 3 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/inukit.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <span class="place__rating-number"></span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Inukit Site</h3>
+                                <span class="place__subtitle">Caingin,Maragondon</span>
+                                <span class="place__price">Php 50</span>
+                            </div>
+                        </div>
+
+                  
+                    </div>
+
+                    <!--==================== PLACES CARD 4 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/pico de loro.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Mt.Pico De Loro</h3>
+                                <span class="place__subtitle">Maragondon,Cavite</span>
+                                <span class="place__price">Php 500</span>
+                            </div>
+                        </div>
+
+                
+                    </div>
+
+                    
+                    <div class="place__card">
+                        <img src="assets/img/paradise.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                 
+                                <span class="place__rating-number"></span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Hidden Paradise</h3>
+                                <span class="place__subtitle">Maragondon,Cavite</span>
+                                <span class="place__price">Free</span>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+
+                    <!--==================== PLACES CARD 5 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/pantihan.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">4,8</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Pantihan Falls</h3>
+                                <span class="place__subtitle">Pantihan,Maragondon</span>
+                                <span class="place__price">Php 30</span>
+                            </div>
+                        </div>
+
+                
+                    </div>
+
+                </div>
+                
+            </section>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                        <h3 class="footer__title">Ecoscape</h3>
+                        <p class="footer__description">Travel you choose the <br> destination, 
+                            we offer you the <br> experience.
+                        </p>
+                        <div>
+                            <a href="https://www.facebook.com/profile.php?id=100095130217491&mibextid=ZbWKwL" target="_blank" class="footer__social">
+                                <i class="ri-facebook-box-fill"></i>
+                            </a>
+                            <a href="https://instagram.com/ecos.cape?igshid=ZDc4ODBmNjlmNQ==" target="_blank" class="footer__social">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+
+
+                <div class="footer__rights">
+                    <p class="footer__copy">&#169; 2023 Ecoescape. All rigths reserved.</p>
+                    <div class="footer__terms">
+                        <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                        <a href="#" class="footer__terms-link">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        <style>
+ 
+        </style>
+        </footer>
+
+         <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <script src="assets/js/swiper-bundle.min1.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
